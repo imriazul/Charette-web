@@ -65,9 +65,8 @@ h2{
 }
 .donate-plan-boxs-area{
     display: flex;
-    margin: 5% 2%;
+    margin: -5% 2% 5%;
     justify-content: space-evenly;
-    
 }
 .plan-box{
     border-radius: 8px;
@@ -89,6 +88,45 @@ h2{
 #helth-box{
     background-color: #FFF4D6;
 }
+
+#recent-activity{
+    display: flex;
+    margin: -5% 4% 5%;
+    justify-content: space-evenly;
+}
+.recent-activity-box{
+    width: 25%;
+    margin: 0 2%;
+    padding: 12px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 15px 15px 40px gray;
+}
+.recent-activity-box img{ 
+    width: 650px;
+    height: 220px;
+
+}
+.recent-activity-box h2{
+    text-align: center;
+    color: #FF5959;
+}
+.recent-activity-box img{
+    width: 100%;
+}
+span{
+    color: #FF5959;
+}
+
+
+
+
+
+
+
+
+
+
 .mail-area{
     margin: -8% 12% 5%;
     padding: 5%;
@@ -115,4 +153,24 @@ h2{
     border-radius: 0 5px 5px 0;
     color: white;
     font-weight: bold;
+}
+footer{
+    height: 100px;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #171716;
+    color: white;
+
+}
+footer p{
+    font-size: 12px;
+}
+footer h3{
+    color: #FF5959;
+    font-size: 25px;
+}
+footer a{
+    text-decoration: none;
+    color: #FF5959;
+    font-size: 14px;
 }
