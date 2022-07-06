@@ -8,8 +8,8 @@ h1{
 h2{
     font-size: 30px;
 }
-.fetured-area{
-    height: 60vh;
+#fetured-area{
+    height: 65vh;
     width: 100%;
     background-image: url(images/donate-fetured.jpg);
     background-repeat: no-repeat;
@@ -17,6 +17,10 @@ h2{
     text-align: center;
     /* for reduse top margingap */
     display: flex;
+}
+#fetured-area a{
+    text-decoration: none;
+    color: white;
 }
 .fetured-text{
     color: white;
@@ -117,16 +121,6 @@ h2{
 span{
     color: #FF5959;
 }
-
-
-
-
-
-
-
-
-
-
 .mail-area{
     margin: -8% 12% 5%;
     padding: 5%;
