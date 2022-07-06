@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 body{
     font-family: 'Roboto Slab', serif;
     margin: 0;
@@ -18,7 +21,7 @@ h2{
     /* for reduse top margingap */
     display: flex;
 }
-#fetured-area a{
+a{
     text-decoration: none;
     color: white;
 }
