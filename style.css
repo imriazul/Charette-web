@@ -62,6 +62,30 @@ input{
     border: 2px solid #FF5959;
     border-radius: 15px;
     margin: 15px 0;
-
-
+}
+.donate-plan-boxs-area{
+    display: flex;
+    margin: 5% 2%;
+    justify-content: space-evenly;
+    
+}
+.plan-box{
+    border-radius: 8px;
+    width: 20%;
+    padding: 2%;
+}
+.plan-box img{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    display: block;
+} 
+#food-box{
+    background-color: #7bb8bec5;
+}
+#shelter-box{
+    background-color: #FFEEEE;
+}
+#helth-box{
+    background-color: #FFF4D6;
 }
